@@ -1,0 +1,22 @@
+.smswrite{
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: grey;
+    width: 800px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.smswrite input{
+    width: 500px;
+    margin-left: 145px;
+    height: 100px;
+}
+
+.smswrite button{
+    width:fit-content;
+}
+
+.card{
+    margin-left: 100px;
+}
