@@ -1,1 +1,46 @@
 # Aplicacion-de-sms
+
+Descripción: Es una aplicacion web que funciona para enviar sms a los contactos agregados en este caso a (Kevin Zea)
+y la cual puede guardar los sms que envia en una base de datos para llevar registro de los sms enviados
+
+Tecnologias usadas:
+- Frontend: 
+  * React Js
+  * Axios
+  * Bootstrap 
+  * React-Router
+  
+  - Backend:
+    *Express Js
+    *Sequelize
+    *Node js
+    *Morgan
+    *Body-parser
+    *dotenv
+    *nodemon
+    *twilio
+    
+- Base de datos:
+  *Postgres sql
+  
+  
+  
+  * Guia de instalación:
+  Para poder instalar la app se recomienda seguir los siguientes pasos:
+  1. Clonar el repositorio
+  2. verificar si tiene npm instalado en su ordenador
+  3. a traves de la terminal de su preferencia posicionarse en la carpeta APP-SMS/Backend y alli escribir el comando 'npm i'
+  (extra). en la misma carpeta abrir el archivo .env y colocar sus credenciales en una base de datos postgre
+  Nota: debera tener instalado postgre en su ordenador y crear su base de datos local para que la aplicación funcione correctamente
+  4. una vez instaladas las dependencias del backend en esa misma terminal escribir el siguiente comando 'npm start', el cual permitira arrancar el servidor del backend
+  5. en otra terminal posicionarse en la carpeta APP-SMS/Frontend y repetir el comando 'npm i'
+  6. en otra terminal dirigirse a la carpeta APP-SMS/Frontend/my-app y repetir el comando 'npm i'
+  7. una vez instaladas todas las dependencias en la misma terminal anterior escribira el comando 'npm start' para poder iniciar la parte visual en la pagina
+  8. automaticamente se abrira una ventana en su navegador la cual abrira el siguiente enlace 'http:localhost:3000/' si este no abre automaticamente por favor hacerlo manualmente
+  9. Listo ya abra podido abrir la aplicación en su ordenador
+  
+  
+  * Guia de uso
+  La aplicacion es intuitiva debido a sus escasos elementos solo debera acceder al menu de la navbar y dar click en el boton de clientes
+  una vez alli saldra dos contactos en el contacto 'Kevin Zea' debera dar click en el boton de 'ir a conversacion'
+  y alli podra enviar sms a mi numero de telefono personal y se iran viendo registrados los sms que vaya enviando.
